@@ -1,7 +1,7 @@
 # Fysiek prototype
 
 In dit bestand kun je meer info vinden over hoe alles te verbinden.
-
+imgs/wiring.jpg
 
 ## wiring diagrama
 
@@ -9,3 +9,5 @@ In dit bestand kun je meer info vinden over hoe alles te verbinden.
 element 1
 element 2 
 element 3
+
+## Beperkingen
