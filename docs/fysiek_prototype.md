@@ -1,7 +1,7 @@
 # Fysiek prototype
 
 In dit bestand kun je meer info vinden over hoe alles te verbinden.
-imgs/wiring.jpg
+![arduino](imgs/wiring.jpg)
 
 ## wiring diagrama
 
