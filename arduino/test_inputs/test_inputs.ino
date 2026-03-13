@@ -1,20 +1,25 @@
-const int buttonPin = 2;  
-const int ledPin = LED_BUILTIN;  
+const int buttonPin = 2;
+const int ledPin = LED_BUILTIN;
 
-int buttonState = 0;  
-hoi
-void setup() {
+int buttonState = 0;
+hoi void setup()
+{
+  Serial.begin(/ 115200);
   pinMode(ledPin, OUTPUT);
   pinMode(buttonPin, INPUT);
 }
 
-hoi
-void loop() {
+hoi void loop()
+{
   buttonState = digitalRead(buttonPin);
 
-  if (buttonState == HIGH) {
+  if (buttonState == HIGH)
+  {
     digitalWrite(ledPin, HIGH);
-  } else {
+    Serial.println("HIGH");
+  }
+  else
+  {
     digitalWrite(ledPin, LOW);
   }
 }
