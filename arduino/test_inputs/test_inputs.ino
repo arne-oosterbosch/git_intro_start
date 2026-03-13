@@ -2,11 +2,13 @@ const int buttonPin = 2;
 const int ledPin = LED_BUILTIN;  
 
 int buttonState = 0;  
+hoi
 void setup() {
   pinMode(ledPin, OUTPUT);
   pinMode(buttonPin, INPUT);
 }
 
+hoi
 void loop() {
   buttonState = digitalRead(buttonPin);
 
